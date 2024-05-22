@@ -27,4 +27,4 @@ RUN ng build
 
 CMD ["nginx", "-g", "daemon off;"]
 # ---------------------------------------------------------------------
-# tambien es necesario crearnos un archivo nginx.conf
+# Tambien es necesario crearnos un archivo nginx.conf
