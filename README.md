@@ -26,9 +26,9 @@ RUN npm install -g @angular/cli
 ```bash
 COPY nginx.conf /etc/nginx/nginx.conf
 ```
-# Expone el puerto 80
+# Expone el puerto 70 (puerto 80 nos da un error)
 ```bash
-EXPOSE 80
+EXPOSE 70
 ```
 # Directorio de trabajo de nuestro aplicacion
 ```bash
