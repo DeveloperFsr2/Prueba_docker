@@ -2,7 +2,7 @@
 ```bash
 docker build -t prueba6 .  
 ```
-# Para crear subir la imagen con su puerto 
+# Para subir la imagen con su puerto 
 ```bash
 docker run -d --name pruex -p 70:8080 prueba6  
 ```
