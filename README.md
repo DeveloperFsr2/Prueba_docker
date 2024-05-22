@@ -1,3 +1,11 @@
+# Para crear la Imagen
+```bash
+docker build -t prueba6 .  
+```
+# Para crear subir la imagen con su puerto 
+```bash
+docker run -d --name pruex -p 70:8080 prueba6  
+```
 # Prueba_docker
 # Utilizamos la imagen base de Ubuntu
 ```bash
